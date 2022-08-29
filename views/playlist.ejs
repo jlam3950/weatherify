@@ -1,0 +1,16 @@
+<%- include('./partials/meta') %>
+<body>
+    <%- include('./partials/header') %>
+        <div id = 'playlist'>
+            <h2>Saved Songs</h2>
+        <ul>
+            <% playlist.forEach(track => { %>
+                <li> <%= track %></li></a>
+                <% })%>
+            </ul>
+        </div>
+
+            <%- include('./partials/script') -%>
+</body>
+
+</html>
