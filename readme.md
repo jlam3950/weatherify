@@ -1,37 +1,37 @@
-# Overview 
+<h1> Weatherify </h1>
+# Overview
+- [About the Project](#about-the-project)
+- [Features](#features)
+- [Videos & Screenshots](#videos-and-screenshots)
+- [Built With](#built-with)
+- [Acknowledgments](#acknowledgments)
+- [Authors](#authors)
 
-<img src="images/readme_img.png" alt="ClimbShop Logo" min-width="320">
+## About The Project
 
 Weatherify is a full-stack applcation that utilizes the spotify API, and the weather.gov API, to create personalized music recommendations based on the current weather. 
 - Video Walkthrough: https://www.youtube.com/watch?v=Ii44Iu3tfB4
 
-## Features 
-- Application accesses both the Spotify API and Weather.gov   API. 
+## Features
+- Find tracks based on your local weather via Weather.gov API. 
+- Music is determined by BPM, danceability, instrumentalness, and more. 
 - Node, Express integration.  
-- Save favorite tracks to SQL database. 
-​- Utilizes Spotify's O Auth to link account to application. 
-- UI/UX styled with CSS Grid, Flexbox. 
+- Save favorite tracks to SQL database.
+- Utilizes Spotify's OAuth to link account to application. 
+- UI/UX styled with CSS Grid, Flexbox.
+## Videos & Screenshots
 
-## Navigating the App 
+<img class = 'readme' src="images/readme_img2.png" width="300px" margin='2rem'> <img src='images/readme_img.png' width="300px">
 
-1. Clone the repo
-   ```sh
-   git clone https://github.com/jlam3950/weatherify.git
-   ```
-2. Enter the following code in the terminal 
-   ```sh
-   NPM Start
-   ```
+## Built With 
+* Javascript
+* NodeJS
+* Express
+* PostgreSQL 
 
-Requires login to your Spotify account to access music recommendations. Once logged in succesfully, select up three genres and enter a zip code. After clicking the magnifying glass button, 15 tracks will be rendered onto the screen. From here, you can save this to your favorites list. Navigate back to the home page with the back arrow, or home page link in the nav bar. 
+## Acknowledgements
+- [Weather.gov](https://www.weather.gov/documentation/services-web-api)
+- [Spotify](https://developer.spotify.com)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Technologies Used
-
-Javascript, NodeJS, Express, Oauth, PostgreSQL were used to create this application. 
-
-## Future Plans
-
-- Integrate MVC.  
-- Update UI/UX with tailwind. 
+## Authors
+- **Jeff L** - [jlam3950](https://github.com/jlam3950)

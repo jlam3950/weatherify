@@ -33,6 +33,8 @@ let access_token;
 let userInfo; 
 let playlist = [];
 
+console.log(client)
+
 app.get('/', (req,res) => {
     res.render('index');
 })
