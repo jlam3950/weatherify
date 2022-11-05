@@ -8,11 +8,14 @@
              <div class="search_container">
                 <div class = 'search_container_subheader'>
                     <h2>Hi, <%= user.display_name %>!</h2>
-                    <h3> Enter your zip code & select up to 3 genres</h3>
+                    <h5> Enter your zip code & select up to 3 genres to get started</h5>
                 </div>
                 <form id = 'form_container'>
                     <label for = 'search bar'></label>
-                    <input type = 'text' placeholder = 'Enter Zip' id ='searchBar'></input>
+                    <div class = 'searchbtn_container'>
+                        <input type = 'text' placeholder = 'Enter Zip' id ='searchBar'></input>
+                        <button type = 'submit' id = 'searchBtn'><i class="fa-solid fa-magnifying-glass mag"></i></button>
+                    </div>
                 </form>
                     
                 <div id = 'genres'>
@@ -27,9 +30,8 @@
                     <div class="blueGrass" id = "genre_id">Blue Grass</div>
                     <div class="reggae" id = "genre_id">Reggae</div>
                     <div class="opera" id = "genre_id">Opera</div>
-                </div>
+                </div>                
                 
-                <button type = 'submit' id = 'searchBtn'><i class="fa-solid fa-magnifying-glass mag"></i></button>
             </div>
         </div>
         <div id="loader"></div>
@@ -42,8 +44,6 @@
          <h5 id = 'track_rec'>  Track Recommendations</h5>
          <div id = 'track_container'></div>
          <div id = 'reset'>
-            <!-- <i class="fa-solid fa-arrow-left-long"> -->
-            <!-- </i></button> -->
             </div>
      </div>
      

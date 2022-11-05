@@ -94,6 +94,7 @@ async function addUser(){
 app.get('/search', async (req,res) => {
     const userInfo = await addUser(); 
     res.render('search', { user: userInfo});  
+    console.log(userInfo);
 });
 
 app.get('/accesstoken', (req,res) =>{

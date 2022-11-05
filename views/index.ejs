@@ -1,21 +1,33 @@
  <%- include('./partials/meta') -%>
  <style>
     body{
-      background: url('../public/static/alphacolor-66JMudIjDTw-unsplash.jpg') center fixed;
+      /* background: url('../public/static/alphacolor-66JMudIjDTw-unsplash.jpg') center fixed; */
+      /* background: url('../public/static/cassette.jpg') center fixed; */
+      background: url('../public/static/alt_background.jpg') center fixed;
       background-size: cover;
       width: 100%;
-      position: fixed;
+      height: 100%;
+      /* position: fixed; */
     }
 </style>
 <body>
 
     <div class = 'title_container'>
-        <div class = 'splash_title'>
-            <h1>Weatherify <i class="fa-brands fa-spotify"></i></h1>
-        </div>
+            <div class = 'splash_title'>
+                <h1 class = 'w'>W</h1>
+                <h1 class = 'e1'>e</h1>
+                <h1 class = 'a'>a</h1>
+                <h1 class = 't'>t</h1>
+                <h1 class = 'h'>h</h1>
+                <h1 class = 'e'>e</h1>
+                <h1 class = 'r'>r</h1>
+                <h1 class = 'i'>i</h1>
+                <h1 class = 'f'>f</h1>
+                <h1 class = 'y'>y</h1>
+            </div>
         <div class = 'splash_info'>
             <h2> Playlists created for you based on the weather forecast</h2>
-            <h2>Powered by Spotify</h2>
+            <h2>Powered by <i class="fa-brands fa-spotify"></i></h2>
         </div>  
         <div class="login_container">
             <button class = 'authBtn'><a href= '/authorize' class ='auth'>Login to Spotify</a></button>
