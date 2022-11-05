@@ -22,7 +22,7 @@ Weatherify is a full-stack applcation that utilizes the spotify API, and the wea
 - UI/UX styled with CSS Grid, Flexbox.
 ## Videos & Screenshots
 
-<img class = 'readme' src="images/readme_img2.png" width="300px" margin='2rem'> <img src='images/readme_img.png' width="300px">
+<img class = 'readme' src="images/readme1.png" width="300px" margin='2rem'> <img src='images/readme2.png' width="300px"> <img src='images/readme3.png' width="300px">
 
 ## Built With 
 * Javascript
